@@ -165,7 +165,16 @@ header .header-nav .nav-item .current {
   color: #2196f3;
 }
 
+main .container-images{
+  background-image: url(./images/imagen.jpg);
+  background-size: cover;
+
+}
+
 main .section-title {
+  background:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+  url(../images/imagen.jpg);
+  background-size: cover;
   background-color: #2f303a;
   padding: 200px calc((100% - 1200px) / 2);
   align-items: center;
@@ -174,7 +183,6 @@ main .section-title {
 main .section-title .title {
   width: 696px;
   margin: 20px auto;
-
   font-size: 44px;
   text-transform: capitalize;
   color: #ffffff;
