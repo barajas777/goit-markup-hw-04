@@ -147,6 +147,15 @@ header .nav-info .info-item .info {
 header .nav-info .info-item .info.info:hover {
   color: #2196f3;
 }
+
+header:hover{
+  fill: #2196f3;
+}
+
+path{
+  cursor: pointer;
+}
+
 header .header-nav .nav-item .nav-link:hover {
   color: #2196f3;
 }
