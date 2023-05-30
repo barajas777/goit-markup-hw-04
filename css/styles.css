@@ -144,13 +144,19 @@ header .nav-info .info-item .info {
   color: #757575;
   text-decoration: none;
 }
-header .nav-info .info-item .info.info:hover {
+header .info-item .info:hover {
   color: #2196f3;
 }
 
-header:hover{
+header :hover{
   fill: #2196f3;
 }
+
+svg path:hover{
+  fill:#2196f3
+}
+
+
 
 path{
   cursor: pointer;
