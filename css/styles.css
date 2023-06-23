@@ -61,9 +61,7 @@ h2 {
 }
 .Our-Team {
   background-color: #f5f4fa;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 .our-team .container {
   margin: 0 var(--container-padding);
@@ -148,6 +146,11 @@ header .info-item .info:hover {
   color: #2196f3;
 }
 
+.celda {
+  width: 270px
+  }
+
+
 header :hover{
   fill: #2196f3;
 }
@@ -214,7 +217,20 @@ main .section-title .section-button {
   padding: 10px 32px;
 }
 
+.container .svg-class {
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+
+
 .advantage-title {
+  margin-bottom: 10px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -278,7 +294,6 @@ footer .logo {
   font-size: 26px;
   color: #2196f3;
   text-decoration: none;
- 
 }
 /*styles portafolio*/
 .btn-item:hover {
